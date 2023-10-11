@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- 1. BÀI TẬP TÍNH TIỀN LƯƠNG NHÂN VIÊN  -->
+    <div class="container">
+        <div class="mb-3">
+            <h2>BÀI TẬP TÍNH TIỀN LƯƠNG NHÂN VIÊN</h2>
+            <div class="mb-3">
+              <label for="" class="form-label">NHẬP SỐ NGÀY LÀM</label>
+              <input type="text"
+                class="form-control" name="" id="soNgayLam" aria-describedby="helpId" placeholder="">
+            </div>
+        </div>
+        <button class="btn btn-primary" id="btnTinhLuong">TÍNH TIỀN LƯƠNG</button>
+        <div class="mt-3 bg-danger bg-opacity-50 p-2" id="ketQuaLuong"></div>
+    </div>
+<br><br><br>
+
+    <!-- 2. BÀI TÍNH GIÁ TRỊ TRUNG BÌNH  -->
+    <div class="container">
+      <div class="mb-3">
+        <h2>BÀI TẬP TÍNH GÍA TRỊ TRUNG BÌNH</h2>
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập số thứ 1</label>
+          <input type="text"
+            class="form-control" name="" id="txt-so1" aria-describedby="helpId" placeholder="">
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập số thứ 2</label>
+          <input type="text"
+            class="form-control" name="" id="txt-so2" aria-describedby="helpId" placeholder="">
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập số thứ 3</label>
+          <input type="text"
+            class="form-control" name="" id="txt-so3" aria-describedby="helpId" placeholder="">
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập số thứ 4</label>
+          <input type="text"
+            class="form-control" name="" id="txt-so4" aria-describedby="helpId" placeholder="">
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập số thứ 5</label>
+          <input type="text"
+            class="form-control" name="" id="txt-so5" aria-describedby="helpId" placeholder="">
+        </div>
+        <button class="btn btn-dark" id="btntinhTrungBinh">TÍNH TRUNG BÌNH</button>
+        <div class="mt-3 bg-danger bg-opacity-50 p-2" id="ketQuaTrungBinh"></div>
+      </div>
+    </div>
+    <br><br><br> 
+
+    <!-- 3. BÀI QUY ĐỔI TIỀN  -->
+    <div class="container">
+      <div class="mb-3">
+        <h2>BÀI TẬP QUY ĐỔI TIỀN</h2>
+        <p> USD >> VND</p>
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập số tiền USD</label>
+          <input type="text"
+            class="form-control" name="" id="txt-soTienUSD" aria-describedby="helpId" placeholder="">
+        </div>
+        <button class="btn btn-danger" id="btnQuyDoiTien">QUY ĐỔI TIỀN</button>
+        <div class="mt-3 bg-danger bg-opacity-50 p-2" id="ketQuaQuyDoiTien"></div>
+      </div>
+    </div>
+    <br><br><br> 
+
+    <!-- 4. BÀI TÍNH DIỆN TÍNH, CHU VI HÌNH CHỮ NHẬT -->
+    <div class="container">
+      <div class="mb-3">
+        <h2>BÀI TẬP TÍNH DIỆN TÍCH, CHU VI HÌNH CHỮ NHẬT</h2>
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">Chiều Dài</label>
+        <input type="text"
+          class="form-control" name="" id="txt-chieuDai" aria-describedby="helpId" placeholder="">
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">Chiều Rộng</label>
+        <input type="text"
+          class="form-control" name="" id="txt-chieuRong" aria-describedby="helpId" placeholder="">
+      </div>
+      <button class="btn btn-success" id="btnTinhChuVi">TÍNH CHU VI</button>
+      <button class="btn btn-success" id="btnTinhDienTich">TÍNH DIỆN TÍCH</button>
+      <div class="mt-3 bg-danger bg-opacity-50 p-2" id="ketQuaChuVi"></div>
+      <div class="mt-3 bg-danger bg-opacity-50 p-2" id="ketQuaDienTich"></div>
+    </div>
+    <br><br><br> 
+
+    <!-- 5. BÀI TẬP TÍNH TỔNG 2 KÝ SỐ  -->
+    <div class="container">
+      <div class="mb-3">
+        <h2>BÀI TẬP TÍNH TỔNG 2 KÝ SỐ</h2>
+        <div class="mb-3">
+          <label for="" class="form-label">Nhập 2 kí số</label>
+          <input type="text"
+            class="form-control" name="" id="txt-2KySo" aria-describedby="helpId" placeholder="">
+        </div>
+        <button class="btn btn-primary" id="btnTinhtong2kyso">TÍNH TỔNG 2 KÝ SỐ</button>
+        <div class="mt-3 bg-danger bg-opacity-50 p-2" id="ketQua2KySo"></div>
+      </div>
+    </div>
+
+
+
+
+
+  
+
+  
+  
+  
+  
+    <script src="./index.js"></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
